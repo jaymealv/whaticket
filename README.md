@@ -7,6 +7,8 @@
 
 # WhaTicket
 
+**NOTE** Retirando o docker 
+
 **NOTE**: The new version of whatsapp-web.js required Node 14. Upgrade your installations to keep using it.
 
 A _very simple_ Ticket System based on WhatsApp messages.
@@ -65,7 +67,7 @@ sudo apt-get install -y libxshmfence-dev libgbm-dev wget unzip fontconfig locale
 Clone this repo
 
 ```bash
-git clone https://github.com/canove/whaticket/ whaticket
+git clone https://github.com/jayme/whaticket/ whaticket
 ```
 
 Go to backend folder and create .env file:
@@ -80,9 +82,9 @@ Fill `.env` file with environment variables:
 ```bash
 NODE_ENV=DEVELOPMENT      #it helps on debugging
 BACKEND_URL=http://localhost
-FRONTEND_URL=https://localhost:3000
-PROXY_PORT=8080
-PORT=8080
+FRONTEND_URL=https://localhost:7773
+PROXY_PORT=8081
+PORT=8081
 
 DB_HOST=                  #DB host IP, usually localhost
 DB_DIALECT=
